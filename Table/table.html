@@ -2,6 +2,9 @@
 <html>
 <head>
     <style>
+        thead {color: green;}
+tbody {color: blue;}
+tfoot {color: red;}
         table, th, td {
   border: 1px solid black;
 }
@@ -12,7 +15,8 @@
 <body>
     <!--This is a Table-->
 <table> 
-
+<thead style="text-align: right;">
+    <tbody>
     <tr>
         <th>Monday</th>
         <th>Tuesday</th>
@@ -21,6 +25,10 @@
         <th>Friday
         </th>
     </tr>
+    </thead>
+    </tbody>
+    <tbody>
+    <tbody 
     <tr>
         <td>Eat</td>
         <td>Chores</td>
@@ -28,6 +36,8 @@
         <td>Go to work</td>
         <td>Sleep at 10</td>
     </tr>
+</tbody>
+<tbody>
     <tr>
         <td>Run</td>
         <td>Fly</td>
@@ -35,6 +45,8 @@
         <td>Crawl</td>
         <td>walk</td>
     </tr>
+</tbody>
+<tbody>
     <tr>
         <td>Coffee</td>
         <td>Laundry</td>
@@ -42,13 +54,17 @@
         <td>Watch TV</td>
         <td>Sleep</td>
     </tr>
-    <tr>
+</tbody>
+    <tbody>
+<tr>
         <td>Go to Museum</td>
         <td>Go to Park</td>
         <td>Biking</td>
         <td>Hiking</td>
         <td>Sledding</td>
     </tr>
+</tbody>
+<tfoot>
     <tr>
         <td>Throw a Party</td>
         <td>Rob a bank</td>
@@ -56,6 +72,7 @@
         <td>Hit a Tree</td>
         <td>Go to the ER</td>
     </tr>
+</tfoot>
 </table>
 </body>
 </html>
