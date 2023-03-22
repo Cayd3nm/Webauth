@@ -3,7 +3,11 @@
 <head>
 <title> CSS Table </title>
 <style>
-
+table,tr,th,td {
+  border: 3px paleturquoise; 
+  border-collapse: collapse;
+  text-align: center;
+}
 </style>
 </head>
 
@@ -11,17 +15,34 @@
     with a caption, header row, two body rows, 
     and a footer row.  Use three columns.-->
 <body>
-<table>
-<tr>
-    
-    <thead><td> d</td></thead>
-    <td>d</td>
-</tr>
-<tr>
-    <td>f</td>
-    <td>game</td>
-</tr>
+<table style="width:100%">
+    <caption> CSS Table caption</caption>
 
+<thead>    
+<tr>
+    <th colspan="3">Table Head</th>
+</tr> 
+</thead>
+
+<tbody>
+<tr>
+    <td>first column</td>
+    <td>second column</td>
+    <td>third column</td>
+</tr>
+<tr>
+    <td>second body row</td>
+    <td>second body row</td>
+    <td>second body row</td>
+</tr>
+</tbody>
+<tfoot> 
+<tr>
+    <td>first foot</td>
+    <td>second foot</td>
+    <td>third foot</td>
+</tr>
+</tfoot>
 
 
 
