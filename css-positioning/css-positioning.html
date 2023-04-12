@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Positioning</title>
+<style>
+#firstimage {
+    position: fixed;
+}
+#secondimage {
+    position: relative;
+}
+#thirdimage {
+    position: absolute;
+}
+#cat {
+position:relative;
+margin: 50px;
+height: 100px;
+width:100px;
+}
+#dog {
+position: absolute;
+height: 100px;
+width:100px;
+right: 20px;
+
+}
+#cow {
+
+}
+</style>
+</head>
+<body>
+    <!--INSTRUCTIONS-->
+    <!-- Add an image to the <body> section of the page.  Use an id and a style in the <style> section to give it a fixed position.
+    Add an image to the <body> section of the page.  Use an id and a style in the <style> section to give it a relative position.
+    Add an image to the <body> section of the page.  Use an id and a style in the <style> section to give it a absolute position.
+-->
+<p>
+    <img id="firstimage" src="img_5terre.jpg" alt="first image">
+    <img id="secondimage" src="css_image_sample.jpg" alt="jail cell">
+    <img id="thirdimage" src="gnome_image.jpg" alt="real gnome">
+    
+    <!--Three more images-->
+    <!-- Add another three images to your page.  Use ids along with positioning and z-index rules in the <style> section to make the 
+        three images overlap like this (they are offset, so you can see portions of all three and they are -->
+    <img id="cat" src="cat_image.avif" alt="cat">
+    <img id="dog" src="dog" alt="dog">
+    <img id="cow" src="cow_image.jpeg" alt="cow">
+</p>
+</body>
+</html>
