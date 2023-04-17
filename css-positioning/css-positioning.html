@@ -4,8 +4,8 @@
 <title>CSS Positioning</title>
 <style>
 
-body{ 
-    cursor: url(https://o.remove.bg/downloads/a8077a95-19d5-4635-aef3-768076b3fc32/6345cde8080a6ed4cd989df8a5ee546b--vector-free-free-vectors-removebg-preview.png);
+html {
+    cursor:alias;
 }
 #firstimage {
     position: fixed;
@@ -43,6 +43,7 @@ z-index: 2;
 }
 #cow {
 position: absolute;
+cursor: crosshair;
 left: 75px;
 top: 75px;
 margin: 75px;
@@ -59,16 +60,16 @@ z-index: 3;
     Add an image to the <body> section of the page.  Use an id and a style in the <style> section to give it a relative position.
     Add an image to the <body> section of the page.  Use an id and a style in the <style> section to give it a absolute position.-->
 
-    <img id="firstimage" src="img_5terre.jpg" alt="first image">
-    <img id="secondimage" src="css_image_sample.jpg" alt="jail cell">
-    <img id="thirdimage" src="gnome_image.jpg" alt="real gnome">
-    
-    <!--Three more images-->
-    <!-- Add another three images to your page.  Use ids along with positioning and z-index rules in the <style> section to make the 
-        three images overlap like this (they are offset, so you can see portions of all three and they are -->
-    <img id="cat" src="cat_image.avif" alt="cat">
-    <img id="dog" src="Dog_image.jpg" alt="dog">
-    <img id="cow" src="cow_image.jpeg" alt="cow">
-</p>
+        <img id="firstimage" src="img_5terre.jpg" alt="first image">
+        <img id="secondimage" src="css_image_sample.jpg" alt="jail cell">
+        <img id="thirdimage" src="gnome_image.jpg" alt="real gnome">
+        
+        <!--Three more images-->
+        <!-- Add another three images to your page.  Use ids along with positioning and z-index rules in the <style> section to make the 
+            three images overlap like this (they are offset, so you can see portions of all three and they are -->
+        <img id="cat" src="cat_image.avif" alt="cat">
+        <img id="dog" src="Dog_image.jpg" alt="dog">
+        <img id="cow" src="cow_image.jpeg" alt="cow">
+    </p>
 </body>
 </html>
