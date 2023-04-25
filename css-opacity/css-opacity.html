@@ -7,73 +7,83 @@
 opacity: 0.5;
 }
 
-#table1
-{
+#table1 {
 height: 100px;
 width: 100px;
 background-color: deeppink;
 }
-#cell1 {
+#cell10 {
     opacity: 0.9;
 }
-#cell2 {
+#cell20 {
     opacity: 0.8;
 }
-#cell3 {
+#cell30 {
     opacity: 0.7;
 }
-#cell4 {
+#cell40 {
     opacity: 0.6;
 }
-#cell5 {
+#cell50 {
     opacity: 0.5;
 }
-#cell6 {
+#cell60 {
     opacity: 0.4;
 }
-#cell7 {
+#cell70 {
     opacity: 0.3;
 }
-#cell8 {
+#cell80 {
     opacity: 0.2;
 }
-#cell9 {
+#cell90 {
     opacity: 0.1;
 }
-WHAT IS THE DIFFERENE BETWEEN A CLASS AND ID
-table2
-{
+#table2 {
 height: 100px;
 width: 100px;
-background-color: deeppink;
+background-color: grey;
 }
+
 #cell1 {
-   background-color: rgba(red, 0, 0, 0.9); 
+   background-color: rgba(255, 0, 0, 0.9); 
 }
 #cell2 {
-    opacity: 0.8;
+    background-color: rgba(255, 0, 0, 0.8);
 }
 #cell3 {
-    opacity: 0.7;
+    background-color: rgba(255, 0, 0, 0.7);
 }
 #cell4 {
-    opacity: 0.6;
+    background-color: rgba(255, 0, 0, 0.6);
 }
 #cell5 {
-    opacity: 0.5;
+    background-color: rgba(255, 0, 0, 0.5);
 }
 #cell6 {
-    opacity: 0.4;
+    background-color: rgba(255, 0, 0, 0.4);
 }
 #cell7 {
-    opacity: 0.3;
+    background-color: rgba(255, 0, 0, 0.3);
 }
 #cell8 {
-    opacity: 0.2;
+    background-color: rgba(255, 0, 0, 0.2);
 }
 #cell9 {
-    opacity: 0.1;
+    background-color: rgba(255, 0, 0, 0.1);
 }
+
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+#img2 {
+z-index: ;
+}
+
 </style>
 </head>
 <body>
@@ -81,22 +91,22 @@ background-color: deeppink;
 
 <table id="table1">
     <tr>
-        <td id="cell1">90%</td>
-        <td id="cell2">80%</td>
-        <td id="cell3">70%</td>
+        <td id="cell10">90%</td>
+        <td id="cell20">80%</td>
+        <td id="cell30">70%</td>
     </tr>
     <tr>
-        <td id="cell4">60%</td>
-        <td id="cell5">50%</td>
-        <td id="cell6">40%</td>
+        <td id="cell40">60%</td>
+        <td id="cell50">50%</td>
+        <td id="cell60">40%</td>
     </tr>
     <tr>
-        <td id="cell7">30%</td>
-        <td id="cell8">20%</td>
-        <td id="cell9">10%</td>
+        <td id="cell70">30%</td>
+        <td id="cell80">20%</td>
+        <td id="cell90">10%</td>
     </tr>
 
-    <table class="table2">
+    <table id="table2">
         <tr>
             <td id="cell1">90%</td>
             <td id="cell2">80%</td>
@@ -112,6 +122,12 @@ background-color: deeppink;
             <td id="cell8">20%</td>
             <td id="cell9">10%</td>
         </tr>
+
+<img src="sunflower.jpg" alt="sunflowers">
+<img id="img2" src="plane.jpg" alt="overlapping plane">
+     </div>
+    </div>
+          
 
 
 
