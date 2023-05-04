@@ -14,16 +14,32 @@
 #shorthand {
     height: 500px;
     width: 650px; 
-    background: #ffffff url(crown2.png) url(albrecht.jpg) url(tile.webp) no-repeat 420px 160px;
+    background: url("crown2.png") no-repeat 420px 160px, url("albrecht.jpg") no-repeat right bottom, url(tile.webp) repeat left top;
 
     background-size: 150px, auto, auto;
+}
+body {
+  background-image: url(a.jpg);
+}
+.hero-image {
+  background-image: url(joshua.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  width: fit-content;
+  height: 100%;
 }
 
 </style>
 </head>
 <body>
 <div id="multipic"> 
-    
+
+   
+</div>
+<div class="hero-image">
+    <h1> Cayden Mackey</h1>
+  </div>
 </div>
 <div id="shorthand">
 </div>
